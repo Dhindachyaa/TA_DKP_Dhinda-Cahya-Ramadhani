@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+* {
+  box-sizing: border-box;
+
+  html,
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/originals/52/62/a1/5262a1da45fec7922430ad340b48f6c4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #0c2c4faa;
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    color: #e34fc8;
+    text-decoration: underline;
+  }
+
+  .navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .navbar li {
+    display: inline;
+    margin-right: 20px;
+  }
+
+  .navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .container h1 {
+    animation: fadeInText 1s ease forwards;
+    margin-top: 100;
+    margin-bottom: 0.5rem;
+  }
+
+  .container p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+  }
+
+  /* Additional styling for the container */
+  .container {
+    text-align: center;
+    padding: 0px;
+  }
+
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    background-color: #acacac82;
+    border: 1px solid #000;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+      border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .btn:hover {
+    background-color: #8fafcf;
+    border-color: #0d3056;
+  }
+
+  .btn:active {
+    background-color: #8fafcf; /* Ubah warna latar belakang saat tombol ditekan */
+    border-color: #0d3056; /* Ubah warna border saat tombol ditekan */
+  }
+
+  .info-container {
+    background-color: #fff; /* Set background color to white */
+    padding: 20px; /* Add padding for better spacing */
+    margin: 20px auto; /* Center the container horizontally */
+    max-width: 600px; /* Set maximum width for better readability */
+    border-radius: 8px; /* Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for a subtle effect */
+  }
+}

@@ -1,0 +1,107 @@
+html,
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/52/62/a1/5262a1da45fec7922430ad340b48f6c4.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+/* Animasi */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.animate__fadeInDown {
+    animation-name: fadeInDown;
+}
+
+/* Style untuk wrapper dan container */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-color: #007bff;
+
+}
+
+.detail-pendaftaran {
+    padding: 10px; /* Padding */
+    border: 1px solid #cccccc50; /* Garis */
+    background-color: #8992c368;
+    margin-bottom: 10px; /* Jarak bawah */
+    color: #131415;
+}
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.836);
+    color: #000f1f;
+    background-color: #6e7d8e4a;
+    width: 50%; /* Atur lebar container */
+    max-width: 600px; /* Batasi lebar maksimum */
+
+}
+
+
+/* CSS untuk judul pendaftaran berhasil */
+.container-header {
+    font-size: 2.5rem; 
+    color: #052644;
+    text-align: center; 
+    margin-top: 50px;
+    animation-duration: 1s; 
+
+}
+/* CSS untuk informasi pendaftaran */
+.info-container {
+    margin-top: 10px; /* Jarak dari atas */
+}
+
+/* CSS untuk tabel informasi */
+.info-table {
+    width: 100%; /* Lebar tabel */
+    border-collapse: collapse; /* Gabungkan garis */
+    border: 2px solid #1512127e; /* Garis tabel */
+}
+
+.info-table td {
+    padding: 10px; /* Padding sel dalam tabel */
+    border: 1px solid #000000; /* Garis antara sel */
+    background-color: #ece4e4aa;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1b324bb1;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #000000;
+}
